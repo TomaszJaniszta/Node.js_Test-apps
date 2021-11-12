@@ -1,16 +1,13 @@
 // zostanie zaimplementowana funkcja która zwraca nową tablicę bez zduplikowanych elementów.
-// Przykładowy kawałek kodu app.js:
+// wczytujemy moduł zawierający funkcje do pracy z tablicą
+const utils = require('./utils');
 
+// przykładowa tablica
 const someArray = ['ala', 3, 'ma', 'kota', 2, 'ala', 5, 3];
-const utils=require()
 
+// wywołanie funkcji 'uniq' z modułu 'utils' i przypisanie nowej tablicy do zmiennej
 const funcResult = utils.uniq(someArray);
-function add(array) {
-      someArray.forEach()
-    }
 
-
-
+// wyświetlenie tablicy w konsoli
+console.log(someArray);
 console.log(funcResult);
-// Wynik:
-// [ 'ala', 3, 'ma', 'kota', 2, 5 ]
