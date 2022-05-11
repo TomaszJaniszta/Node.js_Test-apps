@@ -1,2 +1,2 @@
 # Node.js
-Ćwiczenia w Node.js Nazwy plików sugerują rodzaj zadania. Różne rodzaje rozwiązań zachowane jako przykłady.
+Exercises in Node.js File names suggest the type of task. Different types of solutions preserved as examples.
