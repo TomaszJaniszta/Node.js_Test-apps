@@ -1,14 +1,14 @@
-const http = require('http');
+const http = require("http");
 
-const app = http.createServer((req, res) => {
-      // const url = new URL('http://localhost:4700/abc?q=some-string');
-      const url = new URL(`http://${req.headers.host}${req.url}`);
-      const name = url.searchParams.get('name') || `World`;
+const app = http.createServer((request, response) => {
 
-      res.writeHead(200, {"Content-type":"text/plain"});
-      res.write(`Hello ${name}`);
+const urlObject = new URL(`http://${request.headers.host}${request.url}`);
 
-      res.end( );
+
+    response.writeHead(200, {'Content-type':'text/plain'});
+    response.write(`Hello ${urlObject.searchParams.get('name') || 'World'}`);
+
+    response.end();
 });
 
 app.listen(4700);
