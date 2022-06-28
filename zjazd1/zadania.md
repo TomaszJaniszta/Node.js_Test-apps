@@ -1,6 +1,6 @@
 ## Aplications
 
-1-6 to be added... in progress
+  1-6 to be added... in progress
 
 7. An application that displays information about the logged in user of the system, using the OS module. Additionally: write the username to a file on disk. (https://nodejs.org/dist/latest-v14.x/docs/api/os.html)
 
