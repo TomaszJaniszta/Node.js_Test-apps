@@ -1,5 +1,3 @@
-// Rozszerzenie zadania 4. Aplikacja powinna wczytać jedną liczbę z pliku `a.txt`, drugą liczbę z pliku `b.txt`.
-
 const fs = require('fs')
 var a = fs.readFileSync('a.txt', 'utf8', a)
 var b = fs.readFileSync('b.txt', 'utf8', b)
