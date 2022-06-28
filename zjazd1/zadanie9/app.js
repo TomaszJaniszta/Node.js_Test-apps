@@ -1,9 +1,3 @@
-// Support for input parameters. The application consists of 1 file: `app.js`.
-// Command line arguments. The arguments are stored in process.argv - is an array containing the command line arguments.
-// When starting the application, we can pass an additional parameter to it, which will be displayed after the message`hello`.
-// When more parameters are given, then we ignore all but the first one.
-// When no parameters are specified, the application displays `hello world`.
-
 const { argv } = require('process')
 // let first_value = process.argv[2];
 
