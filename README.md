@@ -8,7 +8,7 @@
 * **Node.js/S2z1/zad5.js** - Adding to the application and returning the 'name' parameter given in the url. A request to 'http://localhost:4700?name=pawel' returns 'Hello pawel'. When no parameter value is specified, the application returns the message 'Hello World'.
 * **Node.js/S2z1/zad6.js** - The application takes 2 parameters 'a' and 'b' from the url and performs multiplication in our application. The result is sent to the end user (client). 
 * **Node.js/S2z1/zad7.js** - Example of an application that performs mathematical operations: multiplication, division, subtraction... It is divided into paths. When an action is impossible to perform, the application returns the appropriate message and status code 'Bad Request'.
-
+* **Node.js/S2z1/zad7.js** - The application returns all parameters specified in the url. The result returned is an object and has ''Content-type':'application/json''
 
   ...
 Content in progress
