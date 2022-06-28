@@ -6,5 +6,9 @@
 * **Node.js/S2z1/zad3.js**
     Modification of the application, returning different messages and response status depending on the http method used
 * **Node.js/S2z1/zad4.js**
+    Modification of the application by for requests at 'http://localhost:4700/users' returned 'Hello from Users path' and returned 'Hello from Comments path' for requests at 'http://localhost:4700/comments'
+* **Node.js/S2z1/zad5.js**
+
+
   ...
 Content in progress
