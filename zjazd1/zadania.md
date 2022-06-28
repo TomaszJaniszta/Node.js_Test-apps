@@ -1,4 +1,4 @@
-## Zadania do wykonania w czasie ćwiczeń
+## Zadania
 
 1. Aplikacja która podczas uruchomienia przywita nas komunikatem `Hello World!`. Aplikacja ma być uruchamiana z poziomu konsoli. (`node ...`).
 
