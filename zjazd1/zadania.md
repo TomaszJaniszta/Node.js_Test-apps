@@ -6,24 +6,10 @@
 
 8. Calculator performing four basic actions (addition, subtraction, division and multiplication) + PI. The application reads one number from file 'a.txt', the other number from file 'b.txt'. On these numbers, it performs an action. The results are saved in a 'result.txt' file, each result on a separate line. Core File system module used (https://nodejs.org/dist/latest-v14.x/docs/api/fs.html).
 
-9. Obsługa parametrów wejściowych. Aplikacja złożona jest z 1 pliku: `app.js`. Podczas uruchamiania aplikacji możemy przekazać jej dodatkowy parametr, który zostanie wyświetlony po komunikacie `hello`. Gdy podanych będzie więcej parametrów, wtedy ignorujemy wszystkie prócz pierwszego. Gdy nie będzie podanych żadnych parametrów aplikacja wyświetla `hello world`. 
-Należy wykorzystać globalną zmienną: `process`.
-```
-Przykładowe uruchomienie aplikacji:
-> node app.js Pawel
-Wynik działania aplikacji:
-> hello Pawel
-
-Przykładowe uruchomienie aplikacji:
-> node app.js
-Wynik działania aplikacji:
-> hello world
-
-Przykładowe uruchomienie aplikacji:
-> node app.js Pawel Lukaszuk
-Wynik działania aplikacji:
-> hello Pawel
-```
+9. Support for input parameters. The application consists of 1 file: `app.js`. Command line arguments. The arguments are stored in process.argv - is an array containing the command line arguments. When starting the application, we can pass an additional parameter to it, which will be displayed after the message`hello`.
+When more parameters are given, then we ignore all but the first one. When no parameters are specified, the application displays `hello world`. Global variable used: 'process'. 
+* Example of running the application: node app.js Pawel / result of the application: hello Pawel
+* Example of running the application: node app.js / result of the application: hello world
 
 10. Rozszerzmy aplikację z zadania 8 tak, by nazwy plików z których pobierany liczby były podawane w parametrach w czasie uruchamiania.
 
