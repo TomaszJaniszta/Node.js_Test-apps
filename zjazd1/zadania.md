@@ -1,8 +1,8 @@
-## Zadania
+## Aplications
 
-1-6 to be added
+1-6 to be added... in progress
 
-7. Aplikacja wyświetlająca informację o zalogowanym użytkowniku systemu, przy użyciu modułu OS (https://nodejs.org/dist/latest-v14.x/docs/api/os.html). Dodatkowo: zapis nazwy użytkownika do pliku na dysku.
+7. An application that displays information about the logged in user of the system, using the OS module. Additionally: write the username to a file on disk. (https://nodejs.org/dist/latest-v14.x/docs/api/os.html)
 
 8. Rozszerzenie zadania 4. Aplikacja powinna wczytać jedną liczbę z pliku `a.txt`, drugą liczbę z pliku `b.txt`. Na tych liczbach należy wykonać operacja dodawania, odejmowania, mnożenia i dzielenia a wyniki wszystkich działań zapisać w pliku `wynik.txt`, każdy wynik w osobnej linii.
 Należy wykorzystać moduł Core'owy File system (https://nodejs.org/dist/latest-v14.x/docs/api/fs.html)
