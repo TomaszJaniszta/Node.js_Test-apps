@@ -9,6 +9,7 @@
 * **Node.js/S2z1/zad6.js** - The application takes 2 parameters 'a' and 'b' from the url and performs multiplication in our application. The result is sent to the end user (client). 
 * **Node.js/S2z1/zad7.js** - Example of an application that performs mathematical operations: multiplication, division, subtraction... It is divided into paths. When an action is impossible to perform, the application returns the appropriate message and status code 'Bad Request'.
 * **Node.js/S2z1/zad8.js** - The application returns all parameters specified in the url. The result returned is an object and has ''Content-type':'application/json''
+* **Node.js/S2z1/zad9.js** - An application that performs operations on a set of users. The path '/add' is used to add the user, takes the parameters 'name', 'username', 'email', e.g. '?name=Jan&username=janko&email=jan@nowak.abc', adding a user only works when a 'POST' request has been sent. The path '/show' is used to display all users, a request of type 'GET'. The display path of the selected user, if the corresponding 'id' ('/show?id=1') and a request of type 'GET' are specified. Delete the user via the path '/delete?id=1'. When there is no user with a given id returns the appropriate status code.
 
   ...
 Content in progress
