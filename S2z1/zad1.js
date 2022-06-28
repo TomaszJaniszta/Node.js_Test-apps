@@ -1,4 +1,3 @@
-// https://api.openweathermap.org/data/2.5/weather?appid=0ed761300a2725ca778c07831ae64d6e&q=Bialystok
 const  http  =  require("http");
 // tworzymy nową instancję naszego serwera
 const  app  =  http.createServer((req,  res)  =>  {
