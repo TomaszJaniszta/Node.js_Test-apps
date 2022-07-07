@@ -1,6 +1,6 @@
 
 
-## S2z2 - Use Postman. Using: middleware, external middleware body-parser, fs.existsSync, express.static, axios
+## S2z3 - Use Postman. Using: middleware, external middleware body-parser, fs.existsSync, express.static, axios
 
 **Node.js/S2z3/1** - Middleware. The task of middleware is to listen for all requests to the server and display in the console information on which address the user is trying to get to, what method and what parameters are given in the query string.
 
