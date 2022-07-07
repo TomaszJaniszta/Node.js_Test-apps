@@ -1,6 +1,6 @@
 ## S2z2 - Use Postman with most aplications. Codes using: Regex, Express, express.Router, res.format. Methods: GET, DELETE, POST.
 
-**Node.js/S2z2/zad1.js** - An application that checks in the sample text the correctness of the postal code and the correctness of the phone number. Also writing out a group of 3 digits and replacing double spaces with single spaces. Regex used.
+**Node.js/S2z2/1.js** - An application that checks in the sample text the correctness of the postal code and the correctness of the phone number. Also writing out a group of 3 digits and replacing double spaces with single spaces. Regex used.
 
 **Node.js/S2z2/2** - Application for use with Postman. When the 'name' parameter appears in the address, it greets our user after the name. (http://localhost:4700/?name=Jan). The second version using the 'Express' framework and an additional parameter retrieved from the URL instead of the query string (http://localhost:4700/Anna).
 
