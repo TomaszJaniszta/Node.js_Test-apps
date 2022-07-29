@@ -1,4 +1,4 @@
-## S2z3 - Use Postman. Using: MongoDB database, 'mongodb' library in 'NodeJS', dotenv.
+## S2z4 - Use Postman. Using: MongoDB database, 'mongodb' library in 'NodeJS', dotenv.
 
 **Node.js/S2z4/1** - The application that displays the value of the environment variable retrieved from the .env file.
 
