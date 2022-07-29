@@ -1,6 +1,5 @@
 # Node.js_Tests_apps_1
-
-## Small test aplications for different purposes: text coloring, displaying file details, downloading data from the file and API, saving in the file, 
+Small test aplications for different purposes: text coloring, displaying file details, downloading data from the file and API, saving in the file.
 
 
 **1** - The application takes a string in the startup parameters and then displays it in rainbow colors.
