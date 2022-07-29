@@ -1,4 +1,4 @@
-# Node.js_Tests_apps_1
+# Node.js_Tests-apps
 Small test aplications for different purposes: text coloring, displaying file details, downloading data from the file and API, saving in the file.
 
 
